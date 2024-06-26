@@ -4,6 +4,8 @@
 
 ### 1. 시연 영상
 
+![card-flip-animation](https://github.com/Minkyung-Park/card-flip-animation/assets/107936844/3f1d7ca3-5711-4126-b326-916216ad01c5)
+
 ### 2. 개선사항
 
 - 카드가 애니메이션 중인지를 추적하는 상태를 추가하여 애니메이션이 진행 중일 때 추가 클릭을 방지하였습니다.
