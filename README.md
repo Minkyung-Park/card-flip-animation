@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# 클릭하면 뒤집히는 카드 구현하기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+클릭 시 뒤집어지는 카드는 사용자에게 인터랙티브한 경험을 제공하고, 시각적 흥미를 유발하며, 사용자 참여를 증대시키기 위해 설계되었습니다. 사용자가 카드를 클릭하면 앞면에 있던 사진이 뒤집히며, 뒷면의 사진이 나타납니다. 이 과정에서 시각적으로 매력적인 애니메이션 효과가 적용되어 사용자의 관심을 끌고 유지합니다. 이러한 인터랙티브 요소는 사용자로 하여금 더 적극적으로 콘텐츠와 상호작용하도록 유도하여, 웹사이트나 애플리케이션에서 더 깊이 있는 정보를 탐색하도록 장려합니다.
 
-## Available Scripts
+### 1. 시연 영상
 
-In the project directory, you can run:
+### 2. 개선사항
 
-### `npm start`
+- 카드가 애니메이션 중인지를 추적하는 상태를 추가하여 애니메이션이 진행 중일 때 추가 클릭을 방지하였습니다.
+- 클래스명을 더 의미 있게 수정하였습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 3. 해보고 싶은 기능
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 카드를 클릭했을 때 동일한 카드가 두 장 나오면 그 카드들이 사라지는 카드 게임을 만들고 싶습니다.
 
-### `npm test`
+### 4. 사용 모듈
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- html
+  <img alt="Html" src ="https://img.shields.io/badge/HTML-E34F26.svg?&style=for-the-badge&logo=HTML&logoColor=white"/>
+- css
+  <img alt="Css" src ="https://img.shields.io/badge/CSS-1572B6.svg?&style=for-the-badge&logo=CSS&logoColor=white"/>
+- js
+  <img alt="JavaScript" src ="https://img.shields.io/badge/JavaScriipt-F7DF1E.svg?&style=for-the-badge&logo=JavaScript&logoColor=black"/>
+- react
+  <img src="https://img.shields.io/badge/react.js-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+- Tailwind CSS
+  <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white"/>
